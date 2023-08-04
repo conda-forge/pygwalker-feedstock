@@ -29,6 +29,7 @@ requirements:
     - astor
     - ipywidgets
     - pydantic
+    - psutil
 
 test:
   imports:
