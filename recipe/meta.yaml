@@ -32,15 +32,18 @@ requirements:
     - psutil
     - python-duckdb ==0.10.0
     - pyarrow
-    - sqlglot >=19.0.0
+    - sqlglot >=23.15.8
     - requests
     - arrow
     - sqlalchemy
     - analytics-python ==2.2.2
     - appdirs
     - pytz
-    - kanaries-track ==0.0.3
+    - kanaries-track ==0.0.5
     - cachetools
+    - packaging
+    - numpy <2.0.0
+    - ipylab <=1.0.0
 
 test:
   imports:
